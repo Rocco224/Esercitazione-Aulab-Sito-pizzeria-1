@@ -1,0 +1,74 @@
+body {
+    height: 1500px;
+    background-image: url(../img/immagine-back.avif);
+}
+nav {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    left: 0;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    
+}
+#sinistra {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+#destra {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+#destra a {
+    
+}
+header {
+    display: flex;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position:absolute;
+    align-self: flex-end;
+    color: white;
+    text-align: center;
+}  
+#chi-siamo {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#chi-siamo img {
+    width: 50%;
+}
+#menu {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 50px;
+}
+#menu img {
+    width: 50%;
+}
+#contenitore {
+    margin: 0px 250px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#contatti {
+    background-color: whitesmoke;
+    display: flex;
+}
+footer {
+    display: flex;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
